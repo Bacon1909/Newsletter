@@ -9,7 +9,6 @@ dotenv.config();
 
 const app = new Hono();
 const PORT = 8080;
-
 // connect routes
 app.route("/subscriber", subscriber);
 
